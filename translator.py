@@ -4,6 +4,8 @@ import googletrans
 from selenium import webdriver
 
 args = sys.argv[1:]
+print(args)
+
 if len(args) < 4:
     print("Usage: python translator.py [url] [from] [to] [chrome or firefox]")
     sys.exit()

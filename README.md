@@ -35,8 +35,14 @@ The url will be [newpip project hosted webplate](https://hosted.weblate.org/tran
 Then,
 
 ```
-python translate.py https://hosted.weblate.org/translate/newpipe/strings/ne/?q=state%3A%3Ctranslated&offset=4 english nepali firefox
+python translate.py "https://hosted.weblate.org/translate/newpipe/strings/ne/?q=state%3A%3Ctranslated&offset=4" english nepali firefox
 ```
 
-Note: You may need to activate virtualenv if you use one or for poetry user user poetry run python instead of python.
+Note: 
+* You may need to activate virtualenv if you use one or for poetry user user poetry run python instead of python.
+* Do not forget the apostropes around url
 
+
+* You will get 40 seconds to sign into the website.
+* After 40 seconds the url will be redirected to the one you entered 
+* Everything will be then done automatically.
