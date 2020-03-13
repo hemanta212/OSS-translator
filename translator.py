@@ -34,7 +34,7 @@ def fill():
     translation_texfield.send_keys(translated_text.text)
     submit_button = browser.find_element_by_name('save')
     submit_button.click()
-    time.sleep(3)
+    time.sleep(1)
     fill()
 
 def main():
