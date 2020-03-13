@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "OSS-translator"
+version = "0.1.0"
+description = "Translate projects in hosted.webplate.org using google translate api"
+authors = ["hemanta212 <sharmahemanta.212@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.4"
+selenium = "^3.141"
+googletrans = "^2.4.0"
+
+[tool.poetry.dev-dependencies]
+python-language-server = "^0.31.8"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

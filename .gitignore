@@ -1,0 +1,5 @@
+# Ignore some files
+.venv
+__pycache__
+*.log
+.#*
