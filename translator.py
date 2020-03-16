@@ -82,11 +82,8 @@ def sanitize(raw_translated_text):
 
 def fill_and_submit(browser, translated_text):
     translation_texfield = browser.find_element_by_class_name("translation-editor")
-    print("found editing field", translation_texfield)
-    print("translated text is ", translated_text)
     translation_texfield.send_keys(translated_text)
     submit_button = browser.find_element_by_name("save")
-    print("found submit field", translation_texfield)
     submit_button.click()
 
 
